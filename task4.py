@@ -11,7 +11,7 @@ people=("John","Tyler","Dash","Kieran","Jayson","Tomoki","Minji","Dawson","Hewit
 x = int(input("enter a numbe that less than 10:"))
 for i in people :
     if x < 10:
-        print(people[x:])
+        print(people[x-1])
         break
 else:
     print("invalid number")
